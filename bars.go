@@ -31,11 +31,11 @@ type BarSet struct {
 	Zero          rune
 	Eighth        rune
 	Quarter       rune
-	ThreeEiths    rune
+	ThreeEighths  rune
 	Half          rune
-	FiveEights    rune
+	FiveEighths   rune
 	ThreeQuarters rune
-	SevenEights   rune
+	SevenEighths  rune
 	One           rune
 }
 
@@ -105,11 +105,11 @@ func MakeBar(seq []float64, set BarSet) []rune {
 		set.Zero,
 		set.Eighth,
 		set.Quarter,
-		set.ThreeEiths,
+		set.ThreeEighths,
 		set.Half,
-		set.FiveEights,
+		set.FiveEighths,
 		set.ThreeQuarters,
-		set.SevenEights,
+		set.SevenEighths,
 		set.One,
 	}
 

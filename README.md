@@ -23,15 +23,15 @@ type BarSet struct {
     // Values from 3/16 to 5/16
     Quarter rune
     // Values from 5/16 to 7/16
-    ThreeEiths rune
+    ThreeEighths rune
     // Values from 7/16 to 9/16
     Half rune
     // Values from 9/16 to 11/16
-    FiveEights rune
+    FiveEighths rune
     // Values from 11/16 to 13/16
     ThreeQuarters rune
     // Values from 13/16 to 15/16
-    SevenEights rune
+    SevenEighths rune
     // Values near One
     One rune
 }
