@@ -66,7 +66,7 @@ var BraileBarSet = BarSet{
 }
 
 // Renders a graph, one character per input value to display the given values.
-// the lowest value given will be represented with a value of Zero int he graph,
+// The lowest value given will be represented with a value of Zero in the graph,
 // while the highest value will be represented with a value of One.
 // If only one value is given it will be represented as one half.
 // The graph is rendered as an array of runes, one rune per value given.
